@@ -1,15 +1,17 @@
 import "./About.css";
+import theme_pattern from "..//..//assets/theme_pattern.svg";
+import profile_img from "..//..//assets/about_profile.svg";
 
 export default function About() {
   return (
     <div className="about">
       <div className="about-title">
         <h1>About me</h1>
-        <img src="" alt="" />
+        <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src="" alt="" />
+          <img src={profile_img} alt="" />
         </div>
         <div className="about-rigth">
           <div className="about-para">
@@ -41,6 +43,22 @@ export default function About() {
               <hr style={{ width: "50%" }} />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="about-achievements">
+        <div className="about-achievement">
+          <h1>1</h1>
+          <p>YEAR OF EXPERIENCE</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>5+</h1>
+          <p>PROJECTS COMPLETED</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>100+</h1>
+          <p>COMMITS</p>
         </div>
       </div>
     </div>

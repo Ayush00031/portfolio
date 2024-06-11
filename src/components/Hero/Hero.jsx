@@ -1,12 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import "./Hero.css";
-
+import profile_img from "../../assets/profile_img.svg";
 export default function Hero() {
   return (
     <div className="hero">
-      <img src="" alt="" />
+      <img src={profile_img} alt="" />
       <h1>
-        {" "}
         <span>I'm Ayush Rawat,</span>frontend developer based in India
       </h1>
       <p>
